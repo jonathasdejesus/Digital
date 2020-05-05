@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+     background-color: #fffead;
+    
+}
+
+#cabecalho{
+    text-align: center;
+    background-color: white;
+    border-bottom-style: inset;
+    border-bottom-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul li a{
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+#corpo{
+    margin: 5%;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+}
+#corpo p, h3{
+    padding: 10px;
+    margin: 10px;
+}
+
+.img{
+    max-width: 700px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+#rodape{
+    background-color: #222222;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    word-spacing: 1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#posts{
+    float: left;
+    padding-top: 5px;
+    padding-left: 200px;
+}
+
+#categoria{
+    float: right;
+    padding-top: 5px;
+    padding-right: 200px;
+    
+}
+
+#sobre{
+    float: left;
+    padding-top: 100px;
+}
+
+#siga{
+    float: right;
+    padding-top: 100px;
+}
+
+#direitos{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+
+
